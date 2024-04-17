@@ -1,0 +1,249 @@
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+/* GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    background-color: rgb(187, 230, 114);
+    height: 100vh;
+    
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: darkolivegreen;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(42, 54, 22);
+    text-decoration: underline;
+
+}
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+display: inline-block;
+padding: 0 40px;
+}
+ header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: chocolate;
+    border: 0cap;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+section.topo-do-site{
+    padding: 10px 30%
+    
+}
+
+
+
+ .topo-do-site h1 {
+    color: darkolivegreen;
+    text-align: center;
+    padding: 2%;
+ }
+
+ .topo-do-site p{
+    text-align: center;
+    font-size: medium;
+ }
+
+ /* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos da section */
+  .formacoes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos das divs de formação */
+  .formacao {
+    color: rgb(42, 53, 22);
+    width: 30%;
+    padding: 30px;
+    background-color: chocolate;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .formacao h2 {
+    margin-bottom: 10px;
+  }
+  
+  .formacao p {
+    font-size: 16px;
+  }
+
+  /* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos da section */
+  .sobre-mim {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Sobre mim */
+  .container {
+    max-width: 800px;
+    margin: auto;
+    color: rgb(170, 85, 25);
+  }
+  
+  .container h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos da section */
+  .formacoes-extracurriculares {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Estilos das divs de formação */
+  .formacao {
+    width: 30%;
+    padding: 20px;
+    background-color: chocolate;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .formacao h2 {
+    margin-bottom: 10px;
+  }
+  
+  .formacao p {
+    font-size: 16px;
+  }
+
+  /* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos do rodapé */
+  .rodape {
+    background-color: chocolate
+    color darkolivegreen;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  /* Estilos do container */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos dos links */
+  .contatos {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contatos li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .contatos li:last-child {
+    margin-right: 0;
+  }
+  
+  .contatos a {
+    color: rgb(97, 50, 17);
+    text-decoration: none;
+  }
+  
+  .contatos a:hover {
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
